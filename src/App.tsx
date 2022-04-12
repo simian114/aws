@@ -9,6 +9,7 @@ function App() {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <button onClick={() => toast.success('hello world')}>click me</button>
+        <button onClick={() => toast.success('hello world')}>click me</button>
         <button
           onClick={() =>
             toast.success(
