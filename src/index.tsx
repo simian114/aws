@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Toaster } from 'react-hot-toast';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <Toaster usePauseOnHover={false} /> */}
+    <Toaster />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
